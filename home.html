@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- cusom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- Đầu header  -->   
+
+<header class="header">
+
+    <a href="home.html" class="logo"> <i class="fas fa-store"></i> trueshop </a>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Nội dung tìm kiếm...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="login.html" class="fas fa-user"></a>
+        <a class="icon-cart"  ><i class="fas fa-shopping-cart"></i> <span class="total-items">0</span></a>
+    </div>
+
+</header>
+
+<!-- Cuối header -->
+
+<!-- Đầu sidebar -->
+
+<div class="side-bar">
+
+    <div id="close-side-bar" class="fas fa-times"></div>
+    
+    <div class="user">
+        <img src="images/user-img.png" alt="">
+        <h3></h3>
+        <a href="login.html">Đăng Nhập</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="home.html"> <i class="fas fa-angle-right"></i> Trang Chủ </a>
+        <a href="about.html"> <i class="fas fa-angle-right"></i> Thông Tin </a>
+        <a href="products.html"> <i class="fas fa-angle-right"></i> Sản Phẩm </a>
+        <a href="contact.html"> <i class="fas fa-angle-right"></i> Liên hệ </a>
+        <a href="login.html"> <i class="fas fa-angle-right"></i> Đăng nhập </a>
+        <a href="signup.html"> <i class="fas fa-angle-right"></i> Đăng kí </a>
+        <a href="cart.html"> <i class="fas fa-angle-right"></i> Giỏ Hàng </a>
+    </nav>
+
+</div>
+
+<!-- Cuối sidebar -->
+
+<!--phần giảm giá nổi bật -->
+
+<section class="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide">
+            <div class="image">
+                <img src="images/home-img-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <span>giảm tới 50%</span>
+                <h3>smartphones</h3>
+                <a href="products.html" class="btn">Mua ngay</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide slide">
+            <div class="image">
+                <img src="images/home-img-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <span>giảm tới 50%</span>
+                <h3>smartwatch</h3>
+                <a href="products.html" class="btn">Mua ngay</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide slide">
+            <div class="image">
+                <img src="images/home-img-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <span>giảm tới 50%</span>
+                <h3>headphones</h3>
+                <a href="products.html" class="btn">Mua ngay</a>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- phần giảm giá nổi bật  -->
+
+<!-- Chi tiết giảm giá  -->
+
+<section class="banner">
+
+    <div class="box-container">
+
+        <a href="headphone.html" class="banner__sale">
+            <img src="images/banner-1.jpg" alt="">
+            <div class="content">
+                <span>Nổi bật</span>
+                <h3>giảm tới 50%</h3>
+            </div>
+        </a>
+
+        <a href="watch.html" class="banner__sale">
+            <img src="images/banner-2.jpg" alt="">
+            <div class="content">
+                <span>Nổi bật</span>
+                <h3>giảm tới 50%</h3>
+            </div>
+        </a>
+
+        <a href="smartphones.html" class="banner__sale">
+            <img src="images/banner-3.jpg" alt="">
+            <div class="content">
+                <span>Nổi bật</span>
+                <h3>giảm tới 50%</h3>
+            </div>
+        </a>
+        
+    </div>
+
+</section>
+
+<!-- Chi tiết giảm giá -->
+
+<!-- Phần sản phẩm mới  -->
+
+<section class="products">
+
+    <h1 class="heading"> Sản Phẩm <span>Mới</span></h1>
+
+    <div class="box-container">
+
+        <div class="item">
+            <div class="image">
+                <img src="images/arrival-1.jpg" class="main-img" alt="">
+                <img src="images/arrival-1-hover.jpg" class="hover-img" alt="">
+                <div class="icon">
+                    <a href="#!" class="fas fa-shopping-cart"></a>
+                 </div>
+            </div>
+            <div class="content">
+                <p class="id" hidden>10</p>
+                <h3>HD television</h3>
+                <div class="price"> 5740000 <span>9184000</span> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/arrival-2.jpg" class="main-img" alt="">
+                <img src="images/arrival-2-hover.jpg" class="hover-img" alt="">
+                <div class="icon">
+                    <a href="#!" class="fas fa-shopping-cart"></a>
+                    
+                </div>
+            </div>
+            <div class="content">
+                <p class="id" hidden>60</p>
+                <h3>MacBook Air M1</h3>
+                <div class="price"> 32990000 <span>33990000</span> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/arrival-3.jpg" class="main-img" alt="">
+                <img src="images/arrival-3-hover.jpg" class="hover-img" alt="">
+                <div class="icon">
+                    <a href="#!" class="fas fa-shopping-cart"></a>
+                    
+                </div>
+            </div>
+            <div class="content">
+                <p class="id" hidden>20</p>
+                <h3>iphone 13</h3>
+                <div class="price"> 21090000 <span>21490000</span> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/arrival-5.jpg" class="main-img" alt="">
+                <img src="images/arrival-5-hover.jpg" class="hover-img" alt="">
+                <div class="icon">
+                    <a href="#!" class="fas fa-shopping-cart"></a>
+                </div>
+            </div>
+            <div class="content">
+                <p class="id" hidden>30</p>
+                <h3>Tai nghe tai chụp sony</h3>
+                <div class="price">4590000 <span>9184000</span> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+            <div class="item">
+                <div class="image">
+                    <img src="images/arrival-6.jpg" class="main-img" alt="">
+                    <img src="images/arrival-6-hover.jpg" class="hover-img" alt="">
+                    <div class="icon">
+                        <a href="#!" class="fas fa-shopping-cart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="id" hidden>50</p>
+                    <h3>Máy nghe nhạc </h3>
+                    <div class="price">990000 <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image">
+                    <img src="images/arrival-7.jpg" class="main-img" alt="">
+                    <img src="images/arrival-7-hover.jpg" class="hover-img" alt="">
+                    <div class="icon">
+                        <a href="#!" class="fas fa-shopping-cart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="id" hidden>40</p>
+                    <h3>Đồng hồ Nam citizen </h3>
+                    <div class="price">9035000 <span>13900000</span> </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</section>
+
+<!-- Cuối phần sản phẩm mới -->
+
+<!-- Đầu footer  -->
+
+<section class="quick-links">
+
+    <a href="home.html" class="logo"> <i class="fas fa-store"></i> trueshop </a>
+
+    <div class="links">
+        <a href="home.html"> Trang chủ </a>
+        <a href="about.html"> Thông tin </a>
+        <a href="products.html"> Sản phẩm </a>
+        <a href="contact.html"> Liên hệ </a>
+        <a href="login.html"> Đăng nhập </a>
+        <a href="signup.html"> Đăng kí </a>
+        <a href="cart.html"> Giỏ hàng </a>
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+</section>
+<!-- Cuối footer -->
+<!-- swiper js link      -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Link javaScrip  -->
+<script src="js/script.js"></script>
+<script src="js/FormatNumber.js"></script>
+<script src="js/addInToCart.js"></script>
+</body>
+</html>
